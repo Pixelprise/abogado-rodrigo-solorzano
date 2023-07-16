@@ -9,6 +9,13 @@
     flex-shrink: 0;
 }
 
+.experience__imageBanner__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 10;
+}
+
 .experience__img--left {
     width: 80%;
     height: 100%;
@@ -62,4 +69,26 @@
     line-height: 24px; /* 150% */
     padding: 0px 60px;
     padding-bottom: 60px;
+}
+
+@media screen and (min-width: 650px) {
+    .experience__div {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .experience__div {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .experience__imageBanner {
+        height: 250px;
+    }
+
+    .experience__info {
+        margin: 20px;
+    }
 }

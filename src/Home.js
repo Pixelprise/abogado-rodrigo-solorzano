@@ -5,7 +5,9 @@ function Home() {
   return (
     <div className='home'>
       <section className='presentation'>
-        <div className='presentation__imageBanner'></div>
+        <div className='presentation__imageBanner'>
+          <img className='presentation__imageBanner__img' src='https://images.ctfassets.net/pdf29us7flmy/1kzRHEKenydC5tEN7HMMub/1ad4e078379e0e4c04d458ed498f3b8a/qroDRufM.png'></img>
+        </div>
         <div className="presentation__info">
           <h2 className='presentation__h2'>Lic. Rodrigo Solórzano Olea<br/>Hermosillo, Sonora, Mexico</h2>
           <h1 className='presentation__h1'>Comprometido a Defender tus Derechos</h1>

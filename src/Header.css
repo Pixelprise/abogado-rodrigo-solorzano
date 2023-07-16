@@ -1,0 +1,29 @@
+.header {
+    height: 94px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 20;
+    position: sticky;
+    top: 0;
+}
+
+.header__img {
+    height: 100%;
+}
+
+.header__logo {
+    width: 126px;
+    height: 70px;
+    flex-shrink: 0;
+    background: #19031a;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.header__menuIcon {
+    cursor: pointer;
+    margin: 22px;
+}

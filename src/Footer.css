@@ -1,0 +1,27 @@
+.footer__socialIcons {
+    color: #0E0E52;
+}
+
+.footer__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+
+.footer__copyright {
+    padding: 5px;
+    color: #0E0E52;
+    text-align: left;
+    /* font-family: Inter; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    /* border: solid red 3px; */
+}
+
+.footer {
+    background: var(--background-color, #FAFAFF);
+    box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,60 @@
+.contactCard__img {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.contacts__heading {
+    color: var(--background-color, #FAFAFF);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 158.023%; /* 56.888px */
+}
+
+.contacts {
+    background-color: #0E0E52;
+    padding: 30px;
+}
+
+.contactCard__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactCard {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background: var(--background-color, #FAFAFF);
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 290px;
+    height: 290px;
+    margin: 32px;
+}
+
+.info__socialMedia {
+    color: var(--primary-color, #0E0E52);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 158.023%; /* 56.888px */
+}
+
+.info__account {
+    opacity: .9;
+    color: var(--primary-color, #0E0E52);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 158.023%; /* 37.925px */
+}

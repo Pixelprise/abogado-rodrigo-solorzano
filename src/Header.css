@@ -30,10 +30,8 @@
 }
 
 .header--responsive {
-    visibility: hidden;
+    display: none;
 }
-
-
 
 .header__a--responsive {
     color: var(--primary-color, #0E0E52);

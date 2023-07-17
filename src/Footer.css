@@ -1,11 +1,13 @@
 .footer__socialIcons {
     color: #0E0E52;
+    padding: 0px;
 }
 
 .footer__links {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .footer {
@@ -21,7 +23,9 @@
 
     .footer__socialIcons {
         margin-right: 5px;
-        padding-top: 10px;
+    }
+    .footer__links {
+        justify-content: end;
     }
 }
 

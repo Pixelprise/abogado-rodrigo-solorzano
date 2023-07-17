@@ -7,18 +7,11 @@ function Contacts() {
     <div className='contacts'>
       <h1 className='contacts__heading'>Contactos</h1>
       <div className='contactCard__container'>
-        <a href="https://www.whatsapp.com">
+        <a href="https://wa.me/526621994536?">
           <ContactCard 
             img="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-icon-png-image_6315990.png"
             socialMedia="Whatsapp"
-            account="6621056673"
-          />
-        </a>
-        <a href="https://www.facebook.com">
-          <ContactCard 
-            img="https://clipart-library.com/images_k/facebook-icon-transparent-background/facebook-icon-transparent-background-12.png"
-            socialMedia="Facebook"
-            account="Rodrigo Solorzano"
+            account="+51 (662)-199-4536"
           />
         </a>
         <a href="https://www.linkedin.com">

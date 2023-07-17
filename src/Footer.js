@@ -12,7 +12,7 @@ function Footer() {
     
   return (
     <footer className='footer'>
-        <p className='footer__copyright'><span>&copy;</span>Pixelprise 2023</p>
+        {/* <p className='footer__copyright'><span>&copy;</span>Pixelprise 2023</p> */}
         <div className='footer__links'>
           <a href='/'>
             <WhatsAppIcon className='footer__socialIcons' style={iconSize} />

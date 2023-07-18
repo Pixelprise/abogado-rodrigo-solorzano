@@ -48,7 +48,7 @@
         display: none;
     } 
     .header--responsive {
-        visibility: visible;
+        display: flex;
     }
 
     .header__a--responsive {
